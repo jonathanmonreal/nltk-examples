@@ -1,3 +1,5 @@
+# Jonathan Monreal
+
 from __future__ import division
 from nltk.corpus import wordnet as wn
 
