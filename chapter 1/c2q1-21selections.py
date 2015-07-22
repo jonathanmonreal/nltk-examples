@@ -24,3 +24,5 @@ my_sent = ["This", "is", "a", "sentence"]
 print '\' \'.join(my_sent) = ' + str(' '.join(my_sent) + '\n')
 print '\'This is a sentence\'.split() = ' + str('This is a sentence'.split()) + '\n\n'
 
+print '14. sent3[2:].index(\'the\') = ' + str(sent3[2:].index('the') + 2) + '\n'
+print 'sent3[6:].index(\'the\') = ' + str(sent3[6:].index('the') + 6) + '\n\n'
