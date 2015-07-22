@@ -37,3 +37,4 @@ print 'text9[621:644] = ' + str(text9[621:644]) + '\n\n'
 print ('18. sorted(set(sent1 + sent2 + sent3 + sent4 + sent5 + sent6 + sent7 + sent8)) =\n' +
        str(sorted(set(sent1 + sent2 + sent3 + sent4 + sent5 + sent6 + sent7 + sent8))) + '\n\n')
 
+print '21. text2[len(text2) - 2:] = ' + str(text2[len(text2) - 2:])
