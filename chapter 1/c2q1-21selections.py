@@ -26,3 +26,8 @@ print '\'This is a sentence\'.split() = ' + str('This is a sentence'.split()) + 
 
 print '14. sent3[2:].index(\'the\') = ' + str(sent3[2:].index('the') + 2) + '\n'
 print 'sent3[6:].index(\'the\') = ' + str(sent3[6:].index('the') + 6) + '\n\n'
+
+print ('15. sorted(set([word.lower() for word in text5 if word.isalpha() and word.startswith(\'b\')])' +
+       " = " + str(sorted(set([word.lower() for word in text5 if word.isalpha() and word.startswith('b')]))) +
+       '\n\n')
+
