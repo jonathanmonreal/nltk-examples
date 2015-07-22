@@ -31,3 +31,6 @@ print ('15. sorted(set([word.lower() for word in text5 if word.isalpha() and wor
        " = " + str(sorted(set([word.lower() for word in text5 if word.isalpha() and word.startswith('b')]))) +
        '\n\n')
 
+print '17. text9.index(\'sunset\') = ' + str(text9.index('sunset')) + '\n'
+print 'text9[621:644] = ' + str(text9[621:644]) + '\n\n'
+
