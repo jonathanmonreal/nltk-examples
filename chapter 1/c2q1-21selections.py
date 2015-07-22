@@ -18,3 +18,9 @@ print ('len(set([word.lower() for word in text1 if word.isalpha()])) = ' +
 
 print '7. text5.collocations()\n'
 print str(text5.collocations()) + '\n\n'
+
+print '10. my_sent = ["This", "is", "a", "sentence"]\n'
+my_sent = ["This", "is", "a", "sentence"]
+print '\' \'.join(my_sent) = ' + str(' '.join(my_sent) + '\n')
+print '\'This is a sentence\'.split() = ' + str('This is a sentence'.split()) + '\n\n'
+
