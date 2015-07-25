@@ -3,6 +3,8 @@
 from __future__ import division
 import nltk
 from nltk.corpus import gutenberg, brown, state_union
+from nltk.corpus import wordnet as wn
+from nltk.book import *
 
 print ('2. len(gutenberg.words(\'austen-persuasion.txt\')) = ' +
        str(len(gutenberg.words('austen-persuasion.txt'))) + '\n')
@@ -37,4 +39,16 @@ for word in [wn.synset('aircraft.n.01'), wn.synset('zebra.n.01')]:
     print 'Substance holonyms: " ' +  str(word.substance_holonyms())
     print '\n'
 print '\n\n'
+
+print '7.'
+print 'text1.concordance(\'however\')'
+print str(text1.concordance('however')) + '\n'
+print 'text2.concordance(\'however\')'
+print str(text2.concordance('however')) + '\n'
+print 'text3.concordance(\'however\')'
+print str(text3.concordance('however')) + '\n\n'
+print 'nltk.Text(nltk.corpus.gutenberg.words(\'austen-emma.txt\')).concordance(\'however\')'
+print str(nltk.Text(nltk.corpus.gutenberg.words('austen-emma.txt')).concordance('however'))
+print '\n\n'
+
 
