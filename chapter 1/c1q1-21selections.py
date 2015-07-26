@@ -16,6 +16,9 @@ print ('4. len([word.lower() for word in text1 if word.isalpha()]) = ' +
 print ('len(set([word.lower() for word in text1 if word.isalpha()])) = ' +
        str(len(set([word.lower() for word in text1 if word.isalpha()]))) + '\n\n')
 
+print '6. text2.dispersion_plot([\'Elinor\', \'Marianne\', \'Edward\', \'Willoughby\'])
+print str(text2.dispersion_plot(['Elinor', 'Marianne', 'Edward', 'Willoughby']))
+
 print '7. text5.collocations()\n'
 print str(text5.collocations()) + '\n\n'
 
