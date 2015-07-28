@@ -3,10 +3,10 @@
 from __future__ import division
 from nltk.corpus import wordnet as wn
 
-counter = 0
-total = 0
+counter = 0 # used to store the number of synsets with no hyponyms
+
 for synset in wn.all_synsets('n'):
-    total += 1
-    if len(synset.hyponyms()) == 0:
+    if len(synset.hyponyms()) == 0: # if the synset has no hyponyms
         counter += 1
-print counter / total
+
+print counter / len(wn.all_synsets('n'))
