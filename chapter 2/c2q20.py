@@ -3,7 +3,7 @@
 import nltk
 from nltk.corpus import brown
 
-# Implementation using FreqDist (slower, more memory use)
+# Implementation using FreqDist for illustration (slower, more memory use)
 #def word_freq(word, section):
 #    fdist = nltk.FreqDist(w.lower() for w in brown.words(categories=section))
 #    try:
