@@ -50,5 +50,3 @@ print str(text3.concordance('however')) + '\n\n'
 print 'nltk.Text(nltk.corpus.gutenberg.words(\'austen-emma.txt\')).concordance(\'however\')'
 print str(nltk.Text(nltk.corpus.gutenberg.words('austen-emma.txt')).concordance('however'))
 print '\n\n'
-
-
