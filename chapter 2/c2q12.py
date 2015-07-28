@@ -17,3 +17,4 @@ for i in range(0, len(entries)):
 
 print 'Words: ' + str(words)
 print 'Multiples: ' + str(multiples)
+print 'Fraction: ' + str(multiples / words)
