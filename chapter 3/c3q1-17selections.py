@@ -30,3 +30,8 @@ print '\n\n'
 print '7.'
 print 'a. Using NLTK: r\'<a|an|the>\'; Otherwise: r\'\s(a|an|the)\s\''
 
+raw = 'this is a test string I am going to split around the character a'
+print '11. raw = \'this is a test string I am going to split around the '\
+      'character a'
+print 'raw.split(\'a\'): ' + str(raw.split('a'))
+
