@@ -45,3 +45,16 @@ print 'test_string.split(\' \'): ' + str(test_string.split(' '))
 print fill('Using .split() ignores all whitespace characters, while using'\
       '.split(\' \') does not.')
 print '\n\n'
+
+words = ['this', 'is', 'a', 'test', 'list', 'of', 'words']
+print '14. words = [\'this\', \'is\', \'a\', \'test\', \'list\', '\
+      '\'of\', \'words\']'
+print 'sorted(words): ' + str(sorted(words))
+print 'words: ' + str(words)
+print 'words.sort()'
+words.sort()
+print 'words: ' + str(words)
+print fill('Using the function sorted(words) returns a new sorted list of '\
+           'words, as where words.sort() sorts the list of words itself.')
+print '\n\n'
+
