@@ -25,4 +25,8 @@ print '5. monty[::-1]: ' + monty[::-1]
 print 'The string is printed backwards. This is a reasonable result given that'\
       '[:] specifies the entire string, and using -1 as the step steps through'\
       'the string backwards.'
+print '\n\n'
+
+print '7.'
+print 'a. Using NLTK: r\'<a|an|the>\'; Otherwise: r\'\s(a|an|the)\s\''
 
