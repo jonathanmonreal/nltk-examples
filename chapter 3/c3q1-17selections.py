@@ -58,3 +58,10 @@ print fill('Using the function sorted(words) returns a new sorted list of '\
            'words, as where words.sort() sorts the list of words itself.')
 print '\n\n'
 
+print '17. Examples:'
+print '\'%6s test\' % \'Monty Python\''
+print '%6s test' % 'Monty Python'
+print '\'%-6s test\' % \'Monty Python\''
+print '%-6s test' % 'Monty Python'
+print fill('It is as if the formatting strings had not been used at all.')
+
