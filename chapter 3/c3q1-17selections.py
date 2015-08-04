@@ -1,7 +1,5 @@
 # Jonathan Monreal
 
-from __future__ import division
-import nltk
 from textwrap import fill
 
 s = 'colorless'
