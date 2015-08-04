@@ -16,3 +16,8 @@ print '\'nationality\'[:-5]: ' + 'nationality'[:-5]
 print '\'undo\'[:-2]: ' + 'undo'[:-2]
 print '\'preheat\'[:-4]: ' + 'preheat'[:-4]
 print '\n\n'
+
+print '3. Yes. You can only wrap around once using negative values. Example:'
+print '\'lol\'[-4]'
+'lol'[-4]
+print '\n\n'
