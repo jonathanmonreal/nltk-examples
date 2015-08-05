@@ -1,0 +1,6 @@
+create 32
+a 11
+file 98
+consisting 23
+of 111
+words 9
