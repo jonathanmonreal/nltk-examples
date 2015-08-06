@@ -8,7 +8,7 @@ def unknown(url):
     # get the HTML, as a string
     html = str(bs(urllib.urlopen(url).read()))
     # find all substrings
-    substrings = re.findall(r'[a-z]+', html)
+    substrings = set(re.findall(r'[a-z]+', html))
     # specify the wordlist
     wordlist = words.words()
     # return the words not in the wordlist
