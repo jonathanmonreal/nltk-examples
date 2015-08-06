@@ -4,8 +4,7 @@ import re, nltk
 from nltk.corpus import brown
 
 raw = brown.raw(categories = 'humor')
-tokens = nltk.word_tokenize(raw)
+tokens = re.findall(r'\s(wh[\w]+)', raw)
 
 for word in tokens:
-    if word[:2] == 'wh':
-        print word[:word.find('/')]
+    print word
