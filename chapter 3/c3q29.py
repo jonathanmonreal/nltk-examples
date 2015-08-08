@@ -14,5 +14,5 @@ def ari(words, sentences):
 
 for category in brown.categories():
     print '%*s %9f' % (max(len(c) for c in brown.categories()), category,
-                             ari(brown.words(categories = category),
-                                 brown.sents(categories = category)))
+                       ari(brown.words(categories = category),
+                       brown.sents(categories = category)))
